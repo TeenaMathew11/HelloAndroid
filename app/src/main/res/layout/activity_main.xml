@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:src="@drawable/udacity1"
+        android:scaleType="centerCrop"
+        android:layout_width="match_parent"
+        android:layout_weight="3"
+        android:layout_height="0dp" />
+
+    <TextView
+        android:text="Udacity"
+        android:textSize="16dp"
+        android:fontFamily="sans-serif"
+        android:paddingTop="20dp"
+        android:paddingLeft="20dp"
+        android:paddingBottom="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="2465 Latham St, Mountain View, CA 94043"
+        android:textSize="16dp"
+        android:fontFamily="sans-serif"
+        android:paddingLeft="20dp"
+        android:paddingBottom="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="650-555-5555"
+        android:textSize="16dp"
+        android:fontFamily="sans-serif"
+        android:paddingLeft="20dp"
+        android:paddingBottom="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="www.udacity.com"
+        android:textSize="16dp"
+        android:fontFamily="sans-serif"
+        android:paddingLeft="20dp"
+        android:paddingBottom="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="unlock your furure with UDACITY"
+        android:textSize="13dp"
+        android:textStyle="italic"
+        android:textColor="@android:color/holo_blue_dark"
+        android:fontFamily="sans-serif-light"
+        android:paddingLeft="20dp"
+        android:paddingBottom="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:src="@drawable/udacity2"
+        android:scaleType="centerCrop"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp" />
+
+</LinearLayout>
